@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## 🚀 Deployment
+
+This project is configured with GitHub Actions for automatic deployment to Somee.com.
+
+- 📖 **Quick Start**: See [QUICK_START.md](QUICK_START.md)
+- 📚 **Detailed Guide**: See [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)
+
+![Deploy Status](https://github.com/yourusername/your-repo/actions/workflows/deploy.yml/badge.svg)
+
 ## Available Scripts
 
 In the project directory, you can run:
