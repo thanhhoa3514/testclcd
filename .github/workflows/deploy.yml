@@ -58,6 +58,6 @@ jobs:
           server: tuanvahoahh.somee.com
           username: thanhhoa3
           password: 123456q@
-          local-dir: ./
+          local-dir: ./build/
           server-dir: /www.tuanvahoahh.somee.com/
           dangerous-clean-slate: false
