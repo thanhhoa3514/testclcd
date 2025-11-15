@@ -50,7 +50,12 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: build-files
-          path: build/
+          path: ./
+
+      - name: List files for debugging
+        run: |
+          echo "Files to deploy:"
+          ls -la
 
       - name: Deploy to Somee via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -58,6 +63,6 @@ jobs:
           server: tuanvahoahh.somee.com
           username: thanhhoa3
           password: 123456q@
-          local-dir: ./build/
+          local-dir: ./
           server-dir: /www.tuanvahoahh.somee.com/
-          dangerous-clean-slate: false
+          dangerous-clean-slate: true
